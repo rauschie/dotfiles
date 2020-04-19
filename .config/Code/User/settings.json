@@ -1,0 +1,62 @@
+{
+    "dotty.trace.machineId": "9ff3fc5d-cca5-40a7-947a-129fbbe95965",
+    "breadcrumbs.enabled": false,
+    "editor.suggestSelection": "first",
+    "extensions.ignoreRecommendations": false,
+    "vim.camelCaseMotion.enable": true,
+    "editor.formatOnSave": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSurroundingLines": 3,
+    "workbench.colorTheme": "Horizon",
+    "vim.foldfix": true,
+    "vim.sneak": true,
+    "editor.formatOnType": true,
+    "vim.highlightedyank.enable": true,
+    "html.mirrorCursorOnMatchingTag": false,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chromium-browser",
+    "editor.fontFamily": "'Source Code Pro', 'monospace', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "vim.cursorStylePerMode.normal": "underline",
+    "vim.useCtrlKeys": false,
+    "vim.handleKeys": {
+        "<C-u>": true,
+        "<C-d>": true,
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Chromium: launch",
+                "type": "chrome",
+                "request": "launch",
+                "url": "http://localhost:4200",
+                "webRoot": "${workspaceFolder}",
+                "runtimeExecutable": "/usr/bin/chromium-browser",
+                "runtimeArgs": [
+                    "--new-window",
+                    "--remote-debugging-port=9222",
+                    "--disable-background-networking"
+                ]
+            }
+        ]
+    },
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.java",
+        "**/*.scala",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+}
